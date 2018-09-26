@@ -22,18 +22,13 @@
 #### Create new directory
 
 ```sh
-mkdir proyect_name proyect_name/src  proyect_name/src/app proyect_name/src/app/components && cd proyect_name && touch src/index.js && touch server.js && touch tsconfig.json && touch webpack.config.js && touch src/app/App.ts && touch src/app/components/hello.tsx
-```
-
-#### Create new directory if is git clone
-```sh
-mkdir  src  src/app src/app/components && touch src/index.js && touch server.js && touch tsconfig.json && touch webpack.config.js && touch src/app/App.ts && touch src/app/components/hello.tsx
+mkdir proyect proyect/src  proyect/src/app proyect/src/app/components && cd proyect && touch src/index.js && touch server.js && touch tsconfig.json && touch webpack.config.js && touch src/app/App.ts && touch src/app/components/hello.tsx
 ```
 
 ```sh
 tree
 tree -I node_modules
-proyect_name/
+proyect/
 ├─ dist/
 |-src/
   |-index.js
