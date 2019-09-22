@@ -340,3 +340,21 @@ Explicación de los plugins instalados como dependencia de desarollo
 | babel-preset-env      | http://babeljs.io/docs/en/env/                                            |
 | babel-preset-react    | https://babeljs.io/docs/en/babel-preset-react                             |
 | .babelrc              | configura el entorno dev "npm run dev" https://babeljs.io/docs/en/babelrc |
+
+
+
+
+##### 2019:----------------------------------
+
+```sh
+ npm i --save-dev webpack webpack-dev-server
+```
+```sh
+ npm i --save-dev babel-cli babel-loader babel-preset-latest babel-preset-react
+```
+```sh
+ npm i --save-dev css-loader style-loader
+```
+```sh
+ npm i --save-dev html-webpack-plugin extract-text-webpack-plugin
+```
